@@ -54,7 +54,6 @@ class ProductsOverviewScreen extends StatelessWidget {
           loadedProducts[i].id,
           loadedProducts[i].title,
           loadedProducts[i].imageUrl,
-          loadedProducts[i].price,
         ),
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,

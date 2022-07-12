@@ -64,16 +64,11 @@ flutter:
     - family: Lato
       fonts:
         - asset: assets/fonts/Lato-Regular.ttf
-          weight: 400
-          style: normal
         - asset: assets/fonts/Lato-Bold.ttf
           weight: 700
-          style: normal
     - family: Anton
       fonts:
         - asset: assets/fonts/Anton-Regular.ttf
-          weight: 400
-          style: normal
   
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
