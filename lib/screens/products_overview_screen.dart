@@ -37,11 +37,13 @@ class _ProductsOverviewScreenState extends State<ProductsOverviewScreen> {
               ),
             ],
             onSelected: (FilterOptions selectedValue) {
-              if (selectedValue == FilterOptions.Favorites) {
-                _shwoOnlyFavorites = true;
-              } else {
-                _shwoOnlyFavorites = false;
-              }
+              setState(() {
+                if (selectedValue == FilterOptions.Favorites) {
+                  _shwoOnlyFavorites = true;
+                } else {
+                  _shwoOnlyFavorites = false;
+                }
+              });
             },
           ),
         ],
